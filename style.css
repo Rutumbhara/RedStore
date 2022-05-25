@@ -158,26 +158,12 @@ h4{
 .testimonial .col-3:hover{
     transform: translateY(-15px);
 }
-.fa.fa-quote-left{
-    font-size: 34px;
-    color: #ff523b;
-}
-.col-3 p{
-    font-size: 15px;
-    margin: 12px 0;
-    color: #777;
-}
-.testimonial .col-3 h3{
-    font-weight: 600;
-    color: #555;
-    font-size: 16px;
-}
-
 
 /* --------------brands----------------- */
 .brands{
     margin: 100 auto;
-
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .col-5{
     width: 160px;
@@ -188,6 +174,7 @@ h4{
 }
 
 /* -------------footer----------- */
+
 .footer{
     background: #000;
     color: #8a8a8a;
@@ -242,44 +229,4 @@ ul{
 }
 .copyright{
     text-align: center;
-}
-
-.menu-icon{
-    width: 25px;
-    margin-left: 20px;
-    display: none;
-}
-
-/* -------------------media query for menu--------- */
-@media only screen and (max-width: 800px){
-    nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100px;
-        overflow: hidden;
-        /* transition: max-height 0.5s; */
-    }
-    nav ul li{
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav ul li a{
-        color: #fff;
-    }
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-    }
-}
-@media only screen and (max-width: 600px){
-    .row{
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4{
-        flex-basis: 100%;
-    }
 }
